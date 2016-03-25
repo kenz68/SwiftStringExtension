@@ -13,6 +13,7 @@
 		13B85C881CA5213300ADB422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B85C871CA5213300ADB422 /* Assets.xcassets */; };
 		13B85C8B1CA5213300ADB422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B85C891CA5213300ADB422 /* LaunchScreen.storyboard */; };
 		13B85C961CA5213300ADB422 /* SwiftStringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B85C951CA5213300ADB422 /* SwiftStringExtensionTests.swift */; };
+		13B85CA41CA5230E00ADB422 /* SwiftStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B85CA31CA5230E00ADB422 /* SwiftStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		13B85C911CA5213300ADB422 /* SwiftStringExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStringExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B85C951CA5213300ADB422 /* SwiftStringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringExtensionTests.swift; sourceTree = "<group>"; };
 		13B85C971CA5213300ADB422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B85CA31CA5230E00ADB422 /* SwiftStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftStringExtension.swift; path = SwiftStringExtension/SwiftStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		13B85C741CA5213300ADB422 = {
 			isa = PBXGroup;
 			children = (
+				13B85CA51CA5231400ADB422 /* Classes */,
 				13B85C7F1CA5213300ADB422 /* SwiftStringExtension */,
 				13B85C941CA5213300ADB422 /* SwiftStringExtensionTests */,
 				13B85C7E1CA5213300ADB422 /* Products */,
@@ -94,6 +97,14 @@
 				13B85C971CA5213300ADB422 /* Info.plist */,
 			);
 			path = SwiftStringExtensionTests;
+			sourceTree = "<group>";
+		};
+		13B85CA51CA5231400ADB422 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13B85CA31CA5230E00ADB422 /* SwiftStringExtension.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			files = (
 				13B85C831CA5213300ADB422 /* ViewController.swift in Sources */,
 				13B85C811CA5213300ADB422 /* AppDelegate.swift in Sources */,
+				13B85CA41CA5230E00ADB422 /* SwiftStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +400,7 @@
 				13B85C9C1CA5213300ADB422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13B85C9D1CA5213300ADB422 /* Build configuration list for PBXNativeTarget "SwiftStringExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +409,7 @@
 				13B85C9F1CA5213300ADB422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
